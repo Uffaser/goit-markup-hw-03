@@ -54,6 +54,8 @@ img {
 
 .header-container {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-link {
@@ -84,8 +86,7 @@ img {
 }
 
 .nav-list-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 .header-list {
@@ -94,8 +95,7 @@ img {
 }
 
 .header-list-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .link {
