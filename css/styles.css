@@ -51,9 +51,10 @@ img {
     max-width: 100%;
 }
 
-.header-nav {
+.nav-link {
     display: flex;
     margin-right: 332px;
+    align-items: center
 }
 
 .logo {
@@ -66,6 +67,9 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     margin: 24px 0;
+}
+
+.header-logo {
     margin-right: 76px;
 }
 
@@ -73,7 +77,7 @@ img {
     color: #2E2F42;    
 }
 
-.header-list {
+.nav-list {
     display: flex;
     padding: 24px 0;
     gap: 40px;
@@ -81,6 +85,7 @@ img {
 
 .header-container {
     display: flex;
+    border-bottom: 1px solid #e7e9fc;
 } 
 
 .link {
