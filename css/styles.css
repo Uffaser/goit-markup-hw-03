@@ -71,7 +71,6 @@ img {
     text-align: left;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin: 24px 0;
     margin-right: 76px;
 }
 
@@ -82,21 +81,21 @@ img {
 .nav-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .nav-list-item {
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-list-item {
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .link {
