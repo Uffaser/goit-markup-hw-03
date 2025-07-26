@@ -52,6 +52,10 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.header-container {
+    display: flex;
+}
+
 .nav-link {
     display: flex;
     margin-right: 332px;
@@ -68,9 +72,6 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     margin: 24px 0;
-}
-
-.header-logo {
     margin-right: 76px;
 }
 
@@ -81,20 +82,14 @@ img {
 .nav-list {
     display: flex;
     gap: 40px;
-}
-
-.header-list-item {
     padding: 24px 0;
 }
 
 .header-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
-
-.header-container {
-    display: flex;
-} 
 
 .link {
     font-size: 16px;
@@ -120,11 +115,6 @@ img {
     text-decoration: underline;
 }
 
-.header-line {
-    color: #e8eafc;
-    margin: 0;
-}
-
 
 /* hero */
 
@@ -144,7 +134,7 @@ img {
     letter-spacing: 0.02em;
     margin: 0 auto;
     margin-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
     
 }
 
@@ -154,8 +144,13 @@ img {
     letter-spacing: 0.04em;
     color: currentColor;
     background-color: #4D5AE5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     padding: 16px 32px;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -190,16 +185,18 @@ img {
     gap: 24px;
 }
 
+.benefits-list-item {
+    width: calc((100% - 72px) / 4)
+}
+
+
 .benefits-list-title {
     letter-spacing: 0.02em;
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-}
-
-.benefits-list-text {
-
+    margin-bottom: 8px;
 }
 
 
@@ -216,8 +213,6 @@ img {
     padding-bottom: 32px;
     padding-top: 32px;
     text-align: center;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    border-radius: 0 0 4px 4px;
 }
 
 .team-title {
@@ -239,6 +234,9 @@ img {
 
 .team-card {
     background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-card-title {
@@ -247,6 +245,7 @@ img {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    margin-bottom: 8px;
 }
 
 .team-card-text {
@@ -264,10 +263,9 @@ img {
 }
 
 .portfolio-container {
-    border: 1px solid #e8eafc;
-    padding-bottom: 32px;
-    padding-top: 32px;
-    padding-left: 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    padding: 32px 16px;
 }
 
 .portfolio-title {
@@ -290,6 +288,7 @@ img {
 
 .portfolio-card {
     background-color: #ffffff;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-card-title {
@@ -299,10 +298,7 @@ img {
     text-transform: capitalize;
     font-weight: 500;
     font-size: 20px;
-}
-
-.portfolio-card-text {
-
+    margin-bottom: 8px;
 }
 
 
@@ -311,6 +307,7 @@ img {
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-container {
