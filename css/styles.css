@@ -82,13 +82,15 @@ img {
 .nav-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+}
+
+.header-list-item {
+    padding: 24px 0
 }
 
 .header-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .link {
@@ -310,12 +312,16 @@ img {
     padding: 100px 0;
 }
 
+.footer-linkk {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-span-logo {
     color: #F4F4FD;
 }
 
 .footer-text {
     color: #F4F4FD;
-    margin-top: 16px;
     max-width: 264px;
 }
