@@ -88,16 +88,6 @@ img {
     padding-bottom: 24px;
 }
 
-.header-list {
-    display: flex;
-    gap: 40px;
-}
-
-.header-list-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .link {
     font-size: 16px;
     font-weight: 500;
@@ -109,6 +99,16 @@ img {
 
 .contasts {
     font-style: normal;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-list-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contasts .link {
