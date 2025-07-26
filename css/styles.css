@@ -310,11 +310,6 @@ img {
     padding: 100px 0;
 }
 
-.footer-container {
-    padding: 100px 0;
-    width: 264px;
-}
-
 .footer-span-logo {
     color: #F4F4FD;
 }
@@ -322,4 +317,5 @@ img {
 .footer-text {
     color: #F4F4FD;
     margin-top: 16px;
+    max-width: 264px;
 }
