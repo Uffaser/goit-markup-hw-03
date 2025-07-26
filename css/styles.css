@@ -84,13 +84,17 @@ img {
     gap: 40px;
 }
 
-.header-list-item {
-    padding: 24px 0
+.nav-list-item {
+    padding: 24px 0;
 }
 
 .header-list {
     display: flex;
     gap: 40px;
+}
+
+.header-list-item {
+    padding: 24px 0;
 }
 
 .link {
